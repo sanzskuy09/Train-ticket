@@ -1,0 +1,27 @@
+$primary-color: linear-gradient(90deg, #ec7ab7 -0.6%, #ec7a7a 100%);
+$secondary-color: #fff;
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.btn-primary {
+  background-image: $primary-color;
+}
+
+.btn-secondary {
+  background-color: $secondary-color;
+}
+
+// Margin
+.mr-1 {
+  margin-right: 0.5rem;
+}
+
+.mr-2 {
+  margin-right: 1.625rem;
+}

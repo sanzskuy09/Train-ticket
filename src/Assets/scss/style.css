@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.d-grid {
+  display: -ms-grid;
+  display: grid;
+}
+
+.container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 8%;
+  padding-left: 8%;
+}
+
+.justify-content-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.align-items-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.btn-primary {
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(-0.6%, #ec7ab7), to(#ec7a7a));
+  background-image: linear-gradient(90deg, #ec7ab7 -0.6%, #ec7a7a 100%);
+}
+
+.btn-secondary {
+  background-color: #fff;
+}
+
+.mr-1 {
+  margin-right: 0.5rem;
+}
+
+.mr-2 {
+  margin-right: 1.625rem;
+}
+
+.header-section {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60px;
+  position: relative;
+}
+
+.header-section .brand-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-section .button-section .btn {
+  width: 7rem;
+  height: 2.562rem;
+  border-radius: 5px;
+  border: 2px solid #ec7ab7;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.header-section .button-section .btn-primary {
+  color: #fff;
+}
+
+.header-section .button-section .btn-secondary {
+  background: -webkit-linear-gradient(90deg, #ec7ab7 -0.6%, #ec7a7a 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header-section .button-section h2 {
+  background: -webkit-linear-gradient(90deg, #ec7ab7 -0.6%, #ec7a7a 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header-section .button-section .img-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 50px;
+  height: 50px;
+  border: 5px solid #ec7ab7;
+  border-radius: 50%;
+}
+
+.header-section .button-section .img-wrapper .img-profile {
+  display: block;
+  width: auto;
+  height: 40px;
+  z-index: -1;
+}
+
+.jumbotron {
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(-0.6%, #ec7ab7), to(#ec7a7a));
+  background-image: linear-gradient(90deg, #ec7ab7 -0.6%, #ec7a7a 100%);
+  width: 100%;
+  height: 300px;
+  position: relative;
+  z-index: -2;
+}
+/*# sourceMappingURL=style.css.map */
